@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Buttley1.1</string>
+    <string name="title_section1">Section 1</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section3">Section 3</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="post_label_bean_type">Bean Type:</string>
+    <string name="post_label_bean_home">Home:</string>
+    <string name="post_label_bean_likes">Likes:</string>
+    <string name="post_label_bean_dislikes">Dislikes:</string>
+    <string name="post_label_bean_quotes">Quotes:</string>
+
+    <!-- Beanography Strings -->
+
+    <!--Twerk-->
+    <string name="bean_name_twerk">Twerk</string>
+
+    <!--Baked Jake-->
+    <string name="bean_name_baked_jake">Baked Jake</string>
+
+    <!--Yogi-->
+    <string name="bean_name_yogi">Yogi</string>
+
+    <!--Joe-->
+    <string name="bean_name_joe">Joe</string>
+
+    <!--Sharty-->
+    <string name="bean_name_sharty">Sharty</string>
+
+    <!--Silent but Deadly-->
+    <string name="bean_name_silent_but_deadly">Silent but Deadly</string>
+
+    <!--Dutch Oven-->
+    <string name="bean_name_dutch_oven">Dutch Oven</string>
+
+    <!--Air Biscuit-->
+    <string name="bean_name_air_biscuit">Air Biscuit</string>
+    <string name="bean_type_air_biscuit">Pinto</string>
+    <string name="bean_home_air_biscuit">JFK</string>
+    <string name="bean_likes_air_biscuit">Wind tunnels</string>
+    <string name="bean_dislikes_air_biscuit">Air Freshener</string>
+    <string name="bean_quotes_air_biscuit">Bombs Away</string>
+
+    <!--Edamama-->
+    <string name="bean_name_edamama">Edamama</string>
+
+    <!--Baby-->
+    <string name="bean_name_baby">Baby</string>
+
+    <!--Bubba-->
+    <string name="bean_name_bubba">Bubba</string>
+
+    <!--Dusty-->
+    <string name="bean_name_dusty">Dusty</string>
+
+    <!--Holy Frijole-->
+    <string name="bean_name_holy_frijole">Holy Frijole</string>
+
+
+</resources>
