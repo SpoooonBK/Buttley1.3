@@ -37,12 +37,14 @@
     <string name="bean_name_dutch_oven">Dutch Oven</string>
 
     <!--Air Biscuit-->
+    <string-array name="air_biscuit">
     <string name="bean_name_air_biscuit">Air Biscuit</string>
     <string name="bean_type_air_biscuit">Pinto</string>
     <string name="bean_home_air_biscuit">JFK</string>
     <string name="bean_likes_air_biscuit">Wind tunnels</string>
     <string name="bean_dislikes_air_biscuit">Air Freshener</string>
     <string name="bean_quotes_air_biscuit">Bombs Away</string>
+    </string-array>
 
     <!--Edamama-->
     <string name="bean_name_edamama">Edamama</string>

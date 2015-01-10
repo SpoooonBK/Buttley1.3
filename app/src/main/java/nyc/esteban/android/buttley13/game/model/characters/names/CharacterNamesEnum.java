@@ -5,17 +5,26 @@ package nyc.esteban.android.buttley13.game.model.characters.names;
  */
 public enum CharacterNamesEnum {
 
-    AIR_BISCUIT, /* Pilot */
-    BABY, /* Baby */
-    EDAMAMA, /* FANCY LADY */
-    BUBBA, /* BIG FAT BEAN */
-    DUSTY, /* OLD FART COWBOY */
-    HOLY_FRIJOLE, /* PADRE */
-    TWERK, /* DANCER */
-    BAKED_JAKE, /* SURFER */
-    YOGI, /*YOGA MASTER*/
-    JOE, /* COFFEE BEAN (EXCITED) */
-    SHARTY, /*WET FART  -SHOWERCAP */
-    SILENT_BUT_DEADLY, /* NINJA */
-    DUTCH_OVEN, /* CHEF */
+
+
+    AIR_BISCUIT("air_biscuit"), /* Pilot */
+    BABY("baby"), /* Baby */
+    EDAMAMA("edamama"), /* FANCY LADY */
+    BUBBA("bubba"), /* BIG FAT BEAN */
+    DUSTY("dusty"), /* OLD FART COWBOY */
+    HOLY_FRIJOLE("holy_frijole"), /* PADRE */
+    TWERK("twerk"), /* DANCER */
+    BAKED_JAKE("baked_jake"), /* SURFER */
+    YOGI("yogi"), /*YOGA MASTER*/
+    JOE("joe"), /* COFFEE BEAN (EXCITED) */
+    SHARTY("sharty"), /*WET FART  -SHOWERCAP */
+    SILENT_BUT_DEADLY("silent_but_deadly"), /* NINJA */
+    DUTCH_OVEN("dutch_oven"), /* CHEF */;
+
+    private String xmlName;
+
+    private CharacterNamesEnum(String xmlName){
+        this.xmlName = xmlName;
+    }
+
 }

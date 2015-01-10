@@ -5,6 +5,7 @@ import android.graphics.drawable.AnimationDrawable;
 
 import java.util.List;
 
+import nyc.esteban.android.buttley13.game.model.characters.names.CharacterNamesEnum;
 import nyc.esteban.android.buttley13.game.model.sounds.Sound;
 
 /**
@@ -17,6 +18,14 @@ public abstract class GameCharacter {
     private List<Sound> sounds;
     private CharacterProfile characterProfile;
     private boolean unlocked;
+
+    protected GameCharacter(Bitmap snapshot, List<AnimationDrawable> animations, List<Sound> sounds, CharacterProfile characterProfile, boolean unlocked) {
+        this.snapshot = snapshot;
+        this.animations = animations;
+        this.sounds = sounds;
+        this.characterProfile = characterProfile;
+        this.unlocked = unlocked;
+    }
 
     public Bitmap getSnapshot() {
         return snapshot;
