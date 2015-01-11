@@ -2,11 +2,10 @@ package nyc.esteban.android.buttley13.game.model.characters;
 
 import android.graphics.Bitmap;
 import android.graphics.drawable.AnimationDrawable;
-import android.os.Bundle;
 
+import java.util.ArrayList;
 import java.util.List;
 
-import nyc.esteban.android.buttley13.game.model.characters.names.CharacterNamesEnum;
 import nyc.esteban.android.buttley13.game.model.sounds.Sound;
 
 /**
@@ -14,60 +13,43 @@ import nyc.esteban.android.buttley13.game.model.sounds.Sound;
  */
 public class CharacterFactory {
 
-    private static GameCharacter gameCharacter;
-    private static List<GameCharacter> gameCharacterList;
+
+    private List<GameCharacter> gameCharacterList = new ArrayList<GameCharacter>();
 
 
+    public List<GameCharacter> buildAllCharacters(){
 
-//    private int name;
-//    private int type;
-//    private int like;
-//    private int dislike;
-
-
-
-
-
-    public static List<GameCharacter> buildAllCharacters(){
-
-        for(CharacterNamesEnum name: CharacterNamesEnum.values()){
+        for(NamesEnum name: NamesEnum.values()){
             gameCharacterList.add(buildCharacter(name));
         }
 
+        return gameCharacterList;
     }
 
-    public static GameCharacter buildCharacter(CharacterNamesEnum characterNamesEnum){
 
-        CharacterProfile characterProfile = new CharacterProfile(characterNamesEnum);
+
+    public GameCharacter buildCharacter(NamesEnum namesEnum){
+
+        GameCharacter character = new GameCharacter();
+
+
+
         Bitmap snapshot = null;
         List<AnimationDrawable> animations = null;
         List<Sound> sounds = null;
         boolean unlocked = true;
 
-
-        switch (characterNamesEnum){
-
+        switch (namesEnum){
             case AIR_BISCUIT:{
-
 
             }
         }
 
-        gameCharacter = new Bean(snapshot, animations, sounds, characterProfile, unlocked);
 
-        return gameCharacter;
+        return character;
     }
 
-    private static Bean buildBean(){
-        Bean bean = null;
-        return bean;
 
-    }
-
-    private static Patient buildPatient(){
-        Patient patient = null;
-        return patient;
-    }
 
 
 }

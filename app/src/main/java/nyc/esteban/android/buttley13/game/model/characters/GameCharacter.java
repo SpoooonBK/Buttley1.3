@@ -5,64 +5,69 @@ import android.graphics.drawable.AnimationDrawable;
 
 import java.util.List;
 
-import nyc.esteban.android.buttley13.game.model.characters.names.CharacterNamesEnum;
 import nyc.esteban.android.buttley13.game.model.sounds.Sound;
 
 /**
  * Created by Tara on 1/8/2015.
  */
-public abstract class GameCharacter {
+public class GameCharacter {
 
-    private Bitmap snapshot;
-    private List<AnimationDrawable> animations;
-    private List<Sound> sounds;
-    private CharacterProfile characterProfile;
-    private boolean unlocked;
+    private Bitmap mSnapshot;
+    private List<AnimationDrawable> mAnimationsList;
+    private List<Sound> mSoundsList;
+    private boolean mUnlocked;
+    private CharacterType mCharacterType;
 
-    protected GameCharacter(Bitmap snapshot, List<AnimationDrawable> animations, List<Sound> sounds, CharacterProfile characterProfile, boolean unlocked) {
-        this.snapshot = snapshot;
-        this.animations = animations;
-        this.sounds = sounds;
-        this.characterProfile = characterProfile;
-        this.unlocked = unlocked;
+    protected GameCharacter(){
     }
 
-    public Bitmap getSnapshot() {
-        return snapshot;
+    public GameCharacter(Bitmap mSnapshot, List<AnimationDrawable> mAnimationsList, List<Sound> mSoundsList, boolean mUnlocked, CharacterType mCharacterType) {
+        this.mSnapshot = mSnapshot;
+        this.mAnimationsList = mAnimationsList;
+        this.mSoundsList = mSoundsList;
+        this.mUnlocked = mUnlocked;
+        this.mCharacterType = mCharacterType;
     }
 
-    public void setSnapshot(Bitmap snapshot) {
-        this.snapshot = snapshot;
+    public CharacterType getmCharacterType() {
+        return mCharacterType;
     }
 
-    public List<AnimationDrawable> getAnimations() {
-        return animations;
+    public void setmCharacterType(CharacterType mCharacterType) {
+        this.mCharacterType = mCharacterType;
     }
 
-    public void setAnimations(List<AnimationDrawable> animations) {
-        this.animations = animations;
+    public Bitmap getmSnapshot() {
+        return mSnapshot;
     }
 
-    public List<Sound> getSounds() {
-        return sounds;
+    public void setmSnapshot(Bitmap mSnapshot) {
+        this.mSnapshot = mSnapshot;
     }
 
-    public void setSounds(List<Sound> sounds) {
-        this.sounds = sounds;
+    public List<AnimationDrawable> getmAnimationsList() {
+        return mAnimationsList;
     }
 
-    public CharacterProfile getCharacterProfile() {
-        return characterProfile;
+    public void setmAnimationsList(List<AnimationDrawable> mAnimationsList) {
+        this.mAnimationsList = mAnimationsList;
+    }
+
+    public List<Sound> getmSoundsList() {
+        return mSoundsList;
+    }
+
+    public void setmSoundsList(List<Sound> mSoundsList) {
+        this.mSoundsList = mSoundsList;
     }
 
 
-
-    public boolean isUnlocked() {
-        return unlocked;
+    public boolean ismUnlocked() {
+        return mUnlocked;
     }
 
-    public void setUnlocked(boolean unlocked) {
-        this.unlocked = unlocked;
+    public void setmUnlocked(boolean mUnlocked) {
+        this.mUnlocked = mUnlocked;
     }
 
 

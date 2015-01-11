@@ -7,59 +7,148 @@
     <string name="title_section3">Section 3</string>
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
-    <string name="post_label_bean_type">Bean Type:</string>
-    <string name="post_label_bean_home">Home:</string>
-    <string name="post_label_bean_likes">Likes:</string>
-    <string name="post_label_bean_dislikes">Dislikes:</string>
-    <string name="post_label_bean_quotes">Quotes:</string>
 
-    <!-- Beanography Strings -->
+
+
+
+    <string-array name="beanography_labels">
+        <item name="type">Type:</item>
+        <item name="home">Home:</item>
+        <item name="likes">Likes:</item>
+        <item name="dislikes">Dislikes:</item>
+        <item name="quote">Quote:</item>
+    </string-array>
+  
+
+    <!-- beanography Strings -->
 
     <!--Twerk-->
-    <string name="bean_name_twerk">Twerk</string>
+    <string-array name="twerk">
+        <item name="name"></item>
+        <item name="type"></item>
+        <item name="home"></item>
+        <item name="likes"></item>
+        <item name="dislikes"></item>
+    </string-array>
+
 
     <!--Baked Jake-->
-    <string name="bean_name_baked_jake">Baked Jake</string>
+    <string-array name="baked_jake">
+        <item name="name"></item>
+        <item name="type"></item>
+        <item name="home"></item>
+        <item name="likes"></item>
+        <item name="dislikes"></item>
+    </string-array>
+
 
     <!--Yogi-->
-    <string name="bean_name_yogi">Yogi</string>
+    <string-array name="yogi">
+        <item name="name"></item>
+        <item name="type"></item>
+        <item name="home"></item>
+        <item name="likes"></item>
+        <item name="dislikes"></item>
+    </string-array>
+
 
     <!--Joe-->
-    <string name="bean_name_joe">Joe</string>
+    <string-array name="joe">
+        <item name="name"></item>
+        <item name="type"></item>
+        <item name="home"></item>
+        <item name="likes"></item>
+        <item name="dislikes"></item>
+    </string-array>
+
 
     <!--Sharty-->
-    <string name="bean_name_sharty">Sharty</string>
+    <string-array name="sharty">
+        <item name="name"></item>
+        <item name="type"></item>
+        <item name="home"></item>
+        <item name="likes"></item>
+        <item name="dislikes"></item>
+    </string-array>
 
     <!--Silent but Deadly-->
-    <string name="bean_name_silent_but_deadly">Silent but Deadly</string>
+    <string-array name="silent_but_deadly">
+            <item name="name"></item>
+            <item name="type"></item>
+            <item name="home"></item>
+            <item name="likes"></item>
+            <item name="dislikes"></item>
+     </string-array>
 
     <!--Dutch Oven-->
-    <string name="bean_name_dutch_oven">Dutch Oven</string>
+    <string-array name="dutch_oven">
+        <item name="name"></item>
+        <item name="type"></item>
+        <item name="home"></item>
+        <item name="likes"></item>
+        <item name="dislikes"></item>
+    </string-array>
+
 
     <!--Air Biscuit-->
     <string-array name="air_biscuit">
-    <string name="bean_name_air_biscuit">Air Biscuit</string>
-    <string name="bean_type_air_biscuit">Pinto</string>
-    <string name="bean_home_air_biscuit">JFK</string>
-    <string name="bean_likes_air_biscuit">Wind tunnels</string>
-    <string name="bean_dislikes_air_biscuit">Air Freshener</string>
-    <string name="bean_quotes_air_biscuit">Bombs Away</string>
+        <item name="name">Air Biscuit</item>
+        <item name="air_biscuit_type">Pinto</item>
+        <item name="air_biscuit_home">JFK</item>
+        <item name="air_biscuit_likes">Wind tunnels</item>
+        <item name="air_biscuit_dislikes">Air Freshener</item>
+        <item name="air_biscuit_quote">Bombs Away</item>
     </string-array>
 
     <!--Edamama-->
-    <string name="bean_name_edamama">Edamama</string>
+    <string-array name="edamama">
+        <item name="name"></item>
+        <item name="type"></item>
+        <item name="home"></item>
+        <item name="likes"></item>
+        <item name="dislikes"></item>
+    </string-array>
+
 
     <!--Baby-->
-    <string name="bean_name_baby">Baby</string>
+    <string-array name="baby">
+        <item name="name"></item>
+        <item name="type"></item>
+        <item name="home"></item>
+        <item name="likes"></item>
+        <item name="dislikes"></item>
+    </string-array>
+
 
     <!--Bubba-->
-    <string name="bean_name_bubba">Bubba</string>
+    <string-array name="bubba">
+        <item name="name"></item>
+        <item name="type"></item>
+        <item name="home"></item>
+        <item name="likes"></item>
+        <item name="dislikes"></item>
+    </string-array>
+
 
     <!--Dusty-->
-    <string name="bean_name_dusty">Dusty</string>
+    <string-array name="dusty">
+        <item name="name"></item>
+        <item name="type"></item>
+        <item name="home"></item>
+        <item name="likes"></item>
+        <item name="dislikes"></item>
+    </string-array>
+
 
     <!--Holy Frijole-->
-    <string name="bean_name_holy_frijole">Holy Frijole</string>
+    <string-array name="holy_frijole">
+        <item name="name"></item>
+        <item name="type"></item>
+        <item name="home"></item>
+        <item name="likes"></item>
+        <item name="dislikes"></item>
+    </string-array>
+
 
 
 </resources>
